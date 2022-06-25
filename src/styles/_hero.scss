@@ -4,22 +4,60 @@ header {
   justify-content: center;
   align-items: center;
   gap: 2em;
-  width: 100%;
+  padding: 8px;
   height: 100vh;
-  background-color: $secondaryColor;
+  background-color: $backgroundColor;
   div {
     position: relative;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     opacity: 0;
   }
   span {
     color: $primaryColor;
+    font-weight: 600;
   }
   .textOne {
     animation: fadein 2s ease-in-out forwards, fadeleft 2s;
   }
   .textTwo {
     animation: fadein 2s ease-in-out 1s forwards, faderight 2s 1s;
+  }
+  button {
+    position: relative;
+    opacity: 0;
+    font-size: 6rem;
+    border: none;
+    color: $primaryColor;
+    background-color: $backgroundColor;
+    animation: fadein 2s ease-in-out 2s forwards,
+      bounce 1s ease-in-out alternate infinite;
+  }
+}
+
+@keyframes bounce {
+  from {
+    top: -1.5rem;
+  }
+  to {
+    top: 0;
+  }
+}
+
+@keyframes fadeleft {
+  from {
+    left: -20rem;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes faderight {
+  from {
+    right: -20rem;
+  }
+  to {
+    right: 0;
   }
 }

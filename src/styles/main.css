@@ -14,20 +14,21 @@ header {
       -ms-flex-align: center;
           align-items: center;
   gap: 2em;
-  width: 100%;
+  padding: 8px;
   height: 100vh;
-  background-color: #f2ebe9;
+  background-color: #393e46;
 }
 
 header div {
   position: relative;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   opacity: 0;
 }
 
 header span {
-  color: #7c3e66;
+  color: #00adb5;
+  font-weight: 600;
 }
 
 header .textOne {
@@ -40,32 +41,32 @@ header .textTwo {
           animation: fadein 2s ease-in-out 1s forwards, faderight 2s 1s;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Source Code Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #f2ebe9;
+header button {
+  position: relative;
+  opacity: 0;
+  font-size: 6rem;
+  border: none;
+  color: #00adb5;
+  background-color: #393e46;
+  -webkit-animation: fadein 2s ease-in-out 2s forwards, bounce 1s ease-in-out alternate infinite;
+          animation: fadein 2s ease-in-out 2s forwards, bounce 1s ease-in-out alternate infinite;
 }
 
-@-webkit-keyframes fadein {
+@-webkit-keyframes bounce {
   from {
-    opacity: 0;
+    top: -1.5rem;
   }
   to {
-    opacity: 1;
+    top: 0;
   }
 }
 
-@keyframes fadein {
+@keyframes bounce {
   from {
-    opacity: 0;
+    top: -1.5rem;
   }
   to {
-    opacity: 1;
+    top: 0;
   }
 }
 
@@ -102,6 +103,36 @@ body {
   }
   to {
     right: 0;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Source Code Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #393e46;
+  color: #eeeeee;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,6 @@
-$primaryColor: #7c3e66;
-$secondaryColor: #f2ebe9;
+$primaryColor: #00adb5;
+$backgroundColor: #393e46;
+$textColor: #eeeeee;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Code+Pro&display=swap');
 @import './hero';
@@ -13,7 +14,8 @@ body {
     'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $secondaryColor;
+  background-color: $backgroundColor;
+  color: $textColor;
 }
 
 @keyframes fadein {
@@ -22,23 +24,5 @@ body {
   }
   to {
     opacity: 1;
-  }
-}
-
-@keyframes fadeleft {
-  from {
-    left: -20rem;
-  }
-  to {
-    left: 0;
-  }
-}
-
-@keyframes faderight {
-  from {
-    right: -20rem;
-  }
-  to {
-    right: 0;
   }
 }
