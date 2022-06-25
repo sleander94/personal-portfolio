@@ -3,7 +3,8 @@ nav {
   top: 0;
   display: flex;
   justify-content: space-around;
-  padding: 12px;
+  align-items: center;
+  height: 54px;
   font-size: 1.2rem;
   background-color: $secondaryColor;
   a {
@@ -27,7 +28,6 @@ nav {
   nav {
     justify-content: end;
     gap: 3rem;
-    padding: 12px;
     padding-right: 10%;
   }
 }
