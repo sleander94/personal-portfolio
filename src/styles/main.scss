@@ -1,9 +1,11 @@
 $primaryColor: #00adb5;
+$secondaryColor: #222831;
 $backgroundColor: #393e46;
 $textColor: #eeeeee;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Code+Pro&display=swap');
 @import './hero';
+@import './navbar';
 
 body {
   margin: 0;

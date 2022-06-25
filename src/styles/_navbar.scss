@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: $secondaryColor;
+  a {
+    color: $textColor;
+    text-decoration: none;
+  }
+  .active {
+    color: $primaryColor;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1080px) {
+  nav {
+    justify-content: end;
+    gap: 3rem;
+    padding-right: 10%;
+  }
+}

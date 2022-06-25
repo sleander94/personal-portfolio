@@ -106,6 +106,37 @@ header button {
   }
 }
 
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: #222831;
+}
+
+nav a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+nav .active {
+  color: #00adb5;
+  font-weight: bold;
+}
+
+@media (min-width: 1080px) {
+  nav {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    gap: 3rem;
+    padding-right: 10%;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
