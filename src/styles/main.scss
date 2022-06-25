@@ -3,9 +3,27 @@ $secondaryColor: #222831;
 $backgroundColor: #393e46;
 $textColor: #eeeeee;
 
+@mixin sectionHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  div {
+    width: 100%;
+    height: 0px;
+    border: 1px solid #00adb5;
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Code+Pro&display=swap');
 @import './hero';
 @import './navbar';
+@import './about';
 
 body {
   margin: 0;
