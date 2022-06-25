@@ -1,0 +1,44 @@
+$primaryColor: #7c3e66;
+$secondaryColor: #f2ebe9;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Code+Pro&display=swap');
+@import './hero';
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Code Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $secondaryColor;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeleft {
+  from {
+    left: -20rem;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes faderight {
+  from {
+    right: -20rem;
+  }
+  to {
+    right: 0;
+  }
+}
