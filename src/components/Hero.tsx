@@ -5,7 +5,7 @@ const Hero = () => {
         Hi, I'm <span>Stephen</span>
       </div>
       <div className="textTwo">Welcome to my portfolio</div>
-      <button type="button">↓</button>
+      <a href="#about">↓</a>
     </header>
   );
 };

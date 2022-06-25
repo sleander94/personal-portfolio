@@ -23,10 +23,11 @@ header {
   .textTwo {
     animation: fadein 2s ease-in-out 1s forwards, faderight 2s 1s;
   }
-  button {
+  a {
     position: relative;
     opacity: 0;
     font-size: 6rem;
+    text-decoration: none;
     border: none;
     color: $primaryColor;
     background-color: $backgroundColor;
