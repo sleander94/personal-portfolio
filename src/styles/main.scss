@@ -25,6 +25,11 @@ $textColor: #eeeeee;
 @import './navbar';
 @import './about';
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 54px;
+}
+
 body {
   margin: 0;
   padding: 0;
