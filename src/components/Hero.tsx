@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <header>
+    <header id="home">
       <div className="textOne">
         Hi, I'm <span>Stephen</span>
       </div>
