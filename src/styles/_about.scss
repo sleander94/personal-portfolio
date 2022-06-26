@@ -1,7 +1,6 @@
 #about {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 
   .aboutHeader {
     @include sectionHeader;
@@ -40,6 +39,20 @@
     img {
       width: 4rem;
       height: auto;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  #about {
+    .skills {
+      .icons {
+        gap: 1rem;
+      }
+      img {
+        width: 2.75rem;
+        height: auto;
+      }
     }
   }
 }
