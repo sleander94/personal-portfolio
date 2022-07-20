@@ -14,7 +14,7 @@ const App = () => {
     const handleScroll = () => {
       sections.forEach((section) => {
         let top = window.scrollY;
-        let offset = section.offsetTop - 54;
+        let offset = section.offsetTop - 250;
         let height = section.offsetHeight;
         let id = section.getAttribute('id');
         if (top >= offset && top < offset + height) {
