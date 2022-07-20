@@ -73,8 +73,8 @@ const Contact = () => {
       <div className="contact-body">
         <p className="contact-message">
           I'm currently searching for a full-time position. Feel free to reach
-          out with any questions, comments, or opportunities and I'll get back
-          to you.
+          out with any questions, comments, or opportunities and I'll be happy
+          to get back to you.
         </p>
         <p className="confirmation">
           <em>{confirmation}</em>

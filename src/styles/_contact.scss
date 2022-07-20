@@ -13,13 +13,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3rem;
   }
   form {
     display: grid;
     justify-items: center;
     gap: 8px;
     .sending {
-      border: 2px solid $secondaryColor;
+      border: 2px solid $backgroundColor;
       border-top: 2px solid $primaryColor;
       border-radius: 50%;
       width: 2rem;
@@ -50,8 +51,11 @@
       background-color: $primaryColor;
       color: $textColor;
       border: none;
-      padding: 4px 36px;
+      border-radius: 4px;
+      padding: 0.1rem 0.5rem;
       margin-top: 1.2rem;
+      font-size: 1.2rem;
+      font-weight: normal;
     }
     button:hover {
       cursor: pointer;
