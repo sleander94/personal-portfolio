@@ -12,7 +12,8 @@ nav {
     color: $textColor;
     text-decoration: none;
   }
-  .active {
+  a.active,
+  a:hover {
     color: $primaryColor;
     font-weight: bold;
   }
