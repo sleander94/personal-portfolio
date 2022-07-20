@@ -3,12 +3,12 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="projectsHeader">
+      <div className="projects-header">
         <div></div>
         <h1>Projects</h1>
         <div></div>
       </div>
-      <div className="projectContainer">
+      <div className="project-container">
         <ProjectCard
           title="Park At A Glance"
           description="Fullstack app displaying important information about America's

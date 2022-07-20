@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
 
-  .projectsHeader {
+  .projects-header {
     @include sectionHeader;
   }
 
-  .projectContainer {
+  .project-container {
     display: flex;
     flex-direction: column;
     justify-content: center;

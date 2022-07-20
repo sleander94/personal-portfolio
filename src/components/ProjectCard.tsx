@@ -27,7 +27,7 @@ const ProjectCard = ({
           <a href={`https://${repo}`}>Code</a>
         </div>
       </div>
-      <div className="projectImage">
+      <div className="project-image">
         <div className="backdrop"></div>
         <img src={path} alt={altText}></img>
       </div>

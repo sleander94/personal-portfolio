@@ -17,10 +17,10 @@
     color: $primaryColor;
     font-weight: 600;
   }
-  .textOne {
+  .text-one {
     animation: fadein 2s ease-in-out forwards, fadeleft 2s;
   }
-  .textTwo {
+  .text-two {
     animation: fadein 2s ease-in-out 1s forwards, faderight 2s 1s;
   }
   a {
