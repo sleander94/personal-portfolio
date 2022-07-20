@@ -8,12 +8,22 @@ const About = () => {
       </div>
       <div className="personal-info">
         <img src={require('../assets/stephenheadshot.jpeg')}></img>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad culpa
-          possimus numquam iure, quis quam minus vitae, aliquid consequatur
-          natus molestiae sequi quae modi. Minima aspernatur quia consequatur
-          voluptate accusamus?
-        </p>
+        <div>
+          <p>
+            I'm a Colorado based Full-Stack developer with experience using the
+            MERN stack to create responsive web apps. I love challenging myself
+            by building new things and adding technologies to my arsenal.
+          </p>
+          <p>
+            Coming from a professional background in high-tech agricultural
+            production, I have years of experience managing highly collaborative
+            teams tasked with mission critical workflows.
+          </p>
+          <p>
+            When I'm not at my computer, you can probably find me somewhere in
+            the mountains.
+          </p>
+        </div>
       </div>
       <div className="skills">
         <h2>Skills</h2>
