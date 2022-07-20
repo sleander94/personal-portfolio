@@ -45,6 +45,15 @@
   }
 }
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @keyframes fadeleft {
   from {
     left: -20rem;
