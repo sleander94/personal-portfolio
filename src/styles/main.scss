@@ -24,6 +24,10 @@ $textColor: #eeeeee;
 @import './hero';
 @import './navbar';
 @import './about';
+@import './projects';
+@import './projectCard';
+@import './contact';
+@import './footer';
 
 html {
   scroll-behavior: smooth;
