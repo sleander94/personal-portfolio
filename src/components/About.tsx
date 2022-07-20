@@ -1,13 +1,13 @@
 const About = () => {
   return (
     <section id="about">
-      <div className="aboutHeader">
+      <div className="about-header">
         <div></div>
         <h1>About Me</h1>
         <div></div>
       </div>
-      <div className="personalInfo">
-        <img src={require('../assets/stephen.jpg')}></img>
+      <div className="personal-info">
+        <img src={require('../assets/stephenheadshot.jpeg')}></img>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad culpa
           possimus numquam iure, quis quam minus vitae, aliquid consequatur
