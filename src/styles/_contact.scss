@@ -1,0 +1,92 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+
+  .contact-header {
+    @include sectionHeader;
+  }
+  .contact-message {
+    max-width: 600px;
+    padding-bottom: 1.2rem;
+  }
+  .contact-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  form {
+    display: grid;
+    justify-items: center;
+    gap: 8px;
+    .sending {
+      border: 2px solid $secondaryColor;
+      border-top: 2px solid $primaryColor;
+      border-radius: 50%;
+      width: 2rem;
+      height: 2rem;
+      animation: spin 1.2s linear infinite;
+    }
+    textarea {
+      resize: none;
+      height: 5rem;
+    }
+    input {
+      height: 1.5rem;
+    }
+    input,
+    textarea {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 0px;
+      background-color: $textColor;
+      color: $secondaryColor;
+    }
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border: 2px solid $primaryColor;
+    }
+    button {
+      background-color: $primaryColor;
+      color: $textColor;
+      border: none;
+      padding: 4px 36px;
+      margin-top: 1.2rem;
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+  .confirmation {
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  #contact {
+    .contact-header {
+      margin-top: 1rem;
+    }
+    p {
+      text-align: center;
+    }
+    form {
+      input {
+        height: 1.2rem;
+      }
+      input,
+      textarea {
+        width: 75%;
+      }
+    }
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
