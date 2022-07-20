@@ -23,12 +23,15 @@ const ProjectCard = ({
         <h2>{title}</h2>
         <p>{description}</p>
         <div className="links">
-          <a href={`https://${site}`}>Site</a>
-          <a href={`https://${repo}`}>Code</a>
+          <a href={`https://${site}`} target="_blank">
+            Site
+          </a>
+          <a href={`https://${repo}`} target="_blank">
+            Code
+          </a>
         </div>
       </div>
       <div className="project-image">
-        <div className="backdrop"></div>
         <img src={path} alt={altText}></img>
       </div>
     </div>
