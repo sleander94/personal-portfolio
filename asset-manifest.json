@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.78f68ccf.css",
+    "main.js": "/static/js/main.818966eb.js",
+    "static/media/parkataglance.gif": "/static/media/parkataglance.0e4a86adab946e8305ce.gif",
+    "static/media/huntforlegends.gif": "/static/media/huntforlegends.f24dabeb44ae143d918e.gif",
+    "static/media/cvgenerator.gif": "/static/media/cvgenerator.508b4c4081983946e899.gif",
+    "static/media/stephenheadshot.jpeg": "/static/media/stephenheadshot.2e035e7ba8cc4fb58a9b.jpeg",
+    "static/media/mongodb-plain-wordmark.svg": "/static/media/mongodb-plain-wordmark.b43ea7a6f1e97fab107aebd22205e345.svg",
+    "static/media/sass-original.svg": "/static/media/sass-original.fb123914eb0e5cc6e0a65e2928d89e2a.svg",
+    "static/media/react-original-wordmark.svg": "/static/media/react-original-wordmark.7c8375868df8c536ab4f2d4078519904.svg",
+    "static/media/firebase-plain-wordmark.svg": "/static/media/firebase-plain-wordmark.78c5aa0c6c7850484a86c44b87edb341.svg",
+    "static/media/nodejs-plain-wordmark.svg": "/static/media/nodejs-plain-wordmark.93875c5d196422272be4ec4f21cf50e9.svg",
+    "static/media/express-original-wordmark.svg": "/static/media/express-original-wordmark.85a49c648d6d91844db838951511ea8c.svg",
+    "static/media/git-plain-wordmark.svg": "/static/media/git-plain-wordmark.ef390047cccb792babdac3f1efc83340.svg",
+    "static/media/javascript-plain.svg": "/static/media/javascript-plain.bacc3387f463f5b56f433827347c6155.svg",
+    "static/media/typescript-plain.svg": "/static/media/typescript-plain.76fe4b0a77bb1549ec20379b6a6d81f5.svg",
+    "static/media/iconmonstr-github-1.svg": "/static/media/iconmonstr-github-1.04be58c17b3d5e9744424d414240dd85.svg",
+    "static/media/html5-plain-wordmark.svg": "/static/media/html5-plain-wordmark.9be87547580467a8277f24c79b387222.svg",
+    "static/media/tailwindcss-plain.svg": "/static/media/tailwindcss-plain.e7b4a92d5aefbddd6f0651c024144be2.svg",
+    "index.html": "/index.html",
+    "static/media/css3-plain-wordmark.svg": "/static/media/css3-plain-wordmark.32dd69d420952df1780d2771ab454d4b.svg",
+    "static/media/iconmonstr-linkedin-3.svg": "/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
+    "main.78f68ccf.css.map": "/static/css/main.78f68ccf.css.map",
+    "main.818966eb.js.map": "/static/js/main.818966eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78f68ccf.css",
+    "static/js/main.818966eb.js"
+  ]
+}
