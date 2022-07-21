@@ -7,7 +7,10 @@ const About = () => {
         <div></div>
       </div>
       <div className="personal-info">
-        <img src={require('../assets/stephenheadshot.jpeg')}></img>
+        <img
+          src={require('../assets/stephenheadshot.jpeg')}
+          alt="Stephen Leander headshot"
+        ></img>
         <div>
           <p>
             I'm a Colorado based Full-Stack developer with experience using the
