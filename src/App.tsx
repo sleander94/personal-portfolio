@@ -14,9 +14,10 @@ const App = () => {
     const handleScroll = () => {
       sections.forEach((section) => {
         let top = window.scrollY;
-        let offset = section.offsetTop - 250;
+        let offset = section.offsetTop - 54;
         let height = section.offsetHeight;
         let id = section.getAttribute('id');
+        if (id === 'contact') offset = section.offsetTop - 400;
         if (top >= offset && top < offset + height) {
           menu.forEach((link) => {
             link.classList.remove('active');
