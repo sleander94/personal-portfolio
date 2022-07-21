@@ -62,6 +62,17 @@ const About = () => {
             alt=""
           />
           <img
+            src={
+              require('../assets/icons/express-original-wordmark.svg').default
+            }
+            alt=""
+            className="express"
+          />
+          <img
+            src={require('../assets/icons/mongodb-plain-wordmark.svg').default}
+            alt=""
+          />
+          <img
             src={require('../assets/icons/firebase-plain-wordmark.svg').default}
             alt=""
           />
