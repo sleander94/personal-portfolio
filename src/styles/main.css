@@ -338,6 +338,7 @@ nav a:hover {
       -ms-flex-align: center;
           align-items: center;
   gap: 2rem;
+  padding-bottom: 6rem;
 }
 
 #projects .projects-header h1 {
@@ -366,7 +367,8 @@ nav a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 8rem;
+  gap: 16rem;
+  padding-bottom: 8rem;
 }
 
 .project {
