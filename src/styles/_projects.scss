@@ -4,6 +4,7 @@
 
   .projects-header {
     @include sectionHeader;
+    padding-bottom: 6rem;
   }
 
   .project-container {
@@ -11,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 16rem;
+    padding-bottom: 8rem;
   }
 }
