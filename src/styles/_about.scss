@@ -3,7 +3,7 @@
   flex-direction: column;
 
   .about-header {
-    @include sectionHeader;
+    @include section-header;
   }
 
   .personal-info {
