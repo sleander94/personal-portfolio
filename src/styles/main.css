@@ -193,7 +193,7 @@ nav a:hover {
       -ms-flex-align: center;
           align-items: center;
   gap: 2rem;
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 2rem;
 }
 
@@ -342,9 +342,8 @@ nav a:hover {
       -ms-flex-align: center;
           align-items: center;
   gap: 2rem;
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 2rem;
-  padding-bottom: 6rem;
 }
 
 #projects .projects-header h1 {
@@ -374,7 +373,6 @@ nav a:hover {
       -ms-flex-align: center;
           align-items: center;
   gap: 10rem;
-  padding-bottom: 8rem;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -556,7 +554,7 @@ nav a:hover {
       -ms-flex-align: center;
           align-items: center;
   gap: 2rem;
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 2rem;
 }
 
@@ -582,6 +580,11 @@ nav a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+#contact p {
+  padding: 1rem;
 }
 
 #contact form {
@@ -607,11 +610,13 @@ nav a:hover {
 }
 
 #contact form input {
-  height: 1.5rem;
+  height: rem;
 }
 
 #contact form input,
 #contact form textarea {
+  padding: 4px;
+  margin-bottom: 0.5rem;
   width: 100%;
   max-width: 500px;
   border-radius: 0px;
@@ -626,11 +631,8 @@ nav a:hover {
 }
 
 #contact form button {
-  background-color: #00adb5;
-  color: #eeeeee;
-  border: none;
-  border-radius: 4px;
-  padding: 0.1rem 0.5rem;
+  border: 1px solid #00adb5;
+  padding: 4px 56px;
   margin-top: 1.2rem;
   font-size: 1.2rem;
   font-weight: normal;
@@ -638,6 +640,8 @@ nav a:hover {
 
 #contact form button:hover {
   cursor: pointer;
+  background-color: #00adb5;
+  color: #222831;
 }
 
 #contact .confirmation {
@@ -645,15 +649,6 @@ nav a:hover {
 }
 
 @media (max-width: 640px) {
-  #contact .contact-header {
-    margin-top: 1rem;
-  }
-  #contact p {
-    text-align: center;
-  }
-  #contact form input {
-    height: 1.2rem;
-  }
   #contact form input,
   #contact form textarea {
     width: 75%;
