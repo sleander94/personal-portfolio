@@ -9,24 +9,52 @@ const Projects = () => {
         <h1>Projects</h1>
         <div></div>
       </div>
-      <div className="project-container">
+      <div className="projects-container">
         <ProjectCard
           title="We Spy"
-          description="Full stack app allowing users to built and share their own photo hunt games. Build with React, Typescript, and Firebase."
+          technologies={['React', 'Typescript', 'Firebase', 'Sass']}
+          description="Full stack app allowing users to create and share their own photo hunt games."
+          features={[
+            'Upload an image and mark hidden items to create a puzzle.',
+            'Complete puzzles by finding all the items and share your score on the leaderboard.',
+          ]}
           site="wespy.app"
           repo="github.com/Scott-Coates-Org/solo-project-sleander94"
-          image="wespy.gif"
-          altText="we spy demo"
+          desktopImage="wespydesktop.png"
+          mobileImage="wespymobile.png"
+          altText="we spy preview"
         />
         <ProjectCard
-          title="Park At A Glance"
-          description="Front end app that uses multiple APIs to display important information about America's
-          National Parks in one place. Built with React, Typescript, and Tailwind."
+          title="Park at a Glance"
+          technologies={['React', 'Typescript', 'Tailwind']}
+          description="Front end app displaying important, up-to-date information about America's National Parks and Monuments in one place."
+          features={[
+            'Look up any National Park or Monument using the search feature.',
+            'Get weekly weather, alerts, news, and campground information on a single page.',
+            'Follow links to get directions or reserve campgrounds.',
+          ]}
           site="parkataglance.com"
           repo="github.com/sleander94/park-at-a-glance"
-          image="parkataglance.gif"
-          altText="park at a glance demo"
+          desktopImage="parkataglancedesktop.png"
+          mobileImage="parkataglancemobile.png"
+          altText="park at a glance preview"
         />
+        <ProjectCard
+          title="CV Generator"
+          technologies={['React', 'Javascript']}
+          description="Front end app to generate a customized CV."
+          features={[
+            'View live preview of CV that updates with user input',
+            'Add and remove work experience and education.',
+            'Download pdf of resume using html2canvas and jspdf.',
+          ]}
+          site="sleander94.github.io/cv-app/"
+          repo="github.com/sleander94/cv-app"
+          desktopImage="cvgeneratordesktop.png"
+          mobileImage="cvgeneratormobile.png"
+          altText="cv generator preview"
+        />
+        {/*  
         <ProjectCard
           title="Hunt for Legends"
           description="Full stack photo tagging app with leaderboards. Built with React and Firebase."
@@ -34,14 +62,6 @@ const Projects = () => {
           repo="github.com/sleander94/hunt-for-legends"
           image="huntforlegends.gif"
           altText="hunt for legends demo"
-        />
-        <ProjectCard
-          title="CV Generator"
-          description="Front end app that converts user input into downloadable PDF. Built with React."
-          site="sleander94.github.io/cv-app/"
-          repo="github.com/sleander94/cv-app"
-          image="cvgenerator.gif"
-          altText="CV generator demo"
         />
         <ProjectCard
           title="Leetcode Blog"
@@ -58,15 +78,7 @@ const Projects = () => {
           repo="github.com/sleander94/shopping-cart"
           image="outdoorstore.gif"
           altText="Outdoor Store demo"
-        />
-        <ProjectCard
-          title="Enchanted Emporium"
-          description="Back end inventory management app. Users can perform CRUD operations on magical fantasy items. Built with Express, MongoDB, and PUG."
-          site="https://pure-eyrie-35212.herokuapp.com/emporium"
-          repo="https://github.com/sleander94/enchanted-emporium"
-          image="enchantedemporium.gif"
-          altText="Enchanted Emporium demo"
-        />
+        /> */}
       </div>
     </section>
   );
