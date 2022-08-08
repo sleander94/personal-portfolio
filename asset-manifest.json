@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f266ea2.css",
-    "main.js": "/static/js/main.e6651237.js",
-    "static/media/parkataglance.gif": "/static/media/parkataglance.0e4a86adab946e8305ce.gif",
-    "static/media/huntforlegends.gif": "/static/media/huntforlegends.f24dabeb44ae143d918e.gif",
-    "static/media/wespy.gif": "/static/media/wespy.353a635bf24e35e5f4d6.gif",
-    "static/media/outdoorstore.gif": "/static/media/outdoorstore.5b64f72c8b3711c44ae2.gif",
-    "static/media/cvgenerator.gif": "/static/media/cvgenerator.508b4c4081983946e899.gif",
-    "static/media/enchantedemporium.gif": "/static/media/enchantedemporium.12c5e334330f3da5e352.gif",
-    "static/media/leetcodeblog.gif": "/static/media/leetcodeblog.f52db160d77423495ff8.gif",
+    "main.css": "/static/css/main.785725fd.css",
+    "main.js": "/static/js/main.15c4e8fa.js",
+    "static/media/parkataglancedesktop.png": "/static/media/parkataglancedesktop.4b3c48fba0a0a455c986.png",
+    "static/media/wespydesktop.png": "/static/media/wespydesktop.50acee74eb86e64cf125.png",
+    "static/media/cvgeneratordesktop.png": "/static/media/cvgeneratordesktop.c7c84aea971024bf32bc.png",
+    "static/media/wespymobile.png": "/static/media/wespymobile.f5a8ba04e9ed5a12e103.png",
+    "static/media/parkataglancemobile.png": "/static/media/parkataglancemobile.39bf05e56c25f76ec60d.png",
+    "static/media/cvgeneratormobile.png": "/static/media/cvgeneratormobile.ad8a3d7e15d9c206515f.png",
     "static/media/stephenheadshot.jpeg": "/static/media/stephenheadshot.2e035e7ba8cc4fb58a9b.jpeg",
     "static/media/mongodb-plain-wordmark.svg": "/static/media/mongodb-plain-wordmark.b43ea7a6f1e97fab107aebd22205e345.svg",
     "static/media/sass-original.svg": "/static/media/sass-original.fb123914eb0e5cc6e0a65e2928d89e2a.svg",
@@ -25,11 +24,11 @@
     "index.html": "/index.html",
     "static/media/css3-plain-wordmark.svg": "/static/media/css3-plain-wordmark.32dd69d420952df1780d2771ab454d4b.svg",
     "static/media/iconmonstr-linkedin-3.svg": "/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.8f266ea2.css.map": "/static/css/main.8f266ea2.css.map",
-    "main.e6651237.js.map": "/static/js/main.e6651237.js.map"
+    "main.785725fd.css.map": "/static/css/main.785725fd.css.map",
+    "main.15c4e8fa.js.map": "/static/js/main.15c4e8fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f266ea2.css",
-    "static/js/main.e6651237.js"
+    "static/css/main.785725fd.css",
+    "static/js/main.15c4e8fa.js"
   ]
 }
