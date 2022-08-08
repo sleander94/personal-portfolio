@@ -27,7 +27,6 @@ const Contact = () => {
       let data = formData;
       data[key] = target.value;
       setFormData({ ...data });
-      console.log(formData);
     };
 
   const sendEmail = (e: React.SyntheticEvent) => {
@@ -54,7 +53,6 @@ const Contact = () => {
             email: '',
             message: '',
           });
-          console.log(result.text);
         },
         (error) => {
           setConfirmation('Error sending email. Please try again.');
