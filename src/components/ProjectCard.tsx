@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react';
+
 type CardProps = {
   title: string;
   technologies: string[];
@@ -8,6 +10,7 @@ type CardProps = {
   desktopImage: string;
   mobileImage: string;
   altText: string;
+  alternate: boolean;
 };
 
 const ProjectCard = ({
@@ -20,9 +23,24 @@ const ProjectCard = ({
   desktopImage,
   mobileImage,
   altText,
+  alternate,
 }: CardProps) => {
+  const [windowWidth, setWindowWidth] = useState<number>(0);
+
+  useEffect(() => {
+    window.addEventListener('resize', () => {
+      setWindowWidth(window.innerWidth);
+    });
+  }, [windowWidth]);
+
   return (
-    <div className="project">
+    <div
+      className="project"
+      style={{
+        flexDirection:
+          windowWidth < 1100 ? 'column' : alternate ? 'row-reverse' : 'row',
+      }}
+    >
       <div className="info">
         <h2>{title}</h2>
         <ul className="technologies">
