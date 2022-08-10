@@ -74,11 +74,7 @@ const Contact = () => {
           out with any questions, comments, or opportunities and I'll be happy
           to get back to you.
         </p>
-        <p className="confirmation">
-          <em>{confirmation}</em>
-        </p>
         <form ref={form} onSubmit={sendEmail}>
-          {sending && <div className="sending"></div>}
           <input
             type="text"
             name="name"
@@ -106,7 +102,11 @@ const Contact = () => {
             value={formData.message}
             onChange={handleInputChange('message')}
           />
-          <button type="submit">Send</button>
+          {sending && <div className="sending"></div>}
+          {!sending && <button type="submit">Send</button>}
+          <p className="confirmation">
+            <em>{confirmation}</em>
+          </p>
         </form>
       </div>
     </section>
