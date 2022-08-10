@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
@@ -23,6 +22,7 @@ const Projects = () => {
           desktopImage="wespydesktop.png"
           mobileImage="wespymobile.png"
           altText="we spy preview"
+          alternate={false}
         />
         <ProjectCard
           title="Park at a Glance"
@@ -38,6 +38,24 @@ const Projects = () => {
           desktopImage="parkataglancedesktop.png"
           mobileImage="parkataglancemobile.png"
           altText="park at a glance preview"
+          alternate={true}
+        />
+        <ProjectCard
+          title="MERN Blog"
+          technologies={['Express', 'MongoDB', 'Material-UI']}
+          description="Full stack personal blog for tracking leetcode solutions."
+          features={[
+            'Custom Express REST API allowing CRUD operations. Connected to React front end.',
+            'User authentication handled with passport JSON web token.',
+            'Signed in users can comment. Only admins can create and delete posts.',
+            'Front and back ends hosted on Heroku',
+          ]}
+          site="sleepy-springs-58716.herokuapp.com/posts"
+          repo="github.com/sleander94/blog-api"
+          desktopImage="MERNblogdesktop.png"
+          mobileImage="MERNblogmobile.png"
+          altText="MERN blog preview"
+          alternate={false}
         />
         <ProjectCard
           title="CV Generator"
@@ -53,6 +71,7 @@ const Projects = () => {
           desktopImage="cvgeneratordesktop.png"
           mobileImage="cvgeneratormobile.png"
           altText="cv generator preview"
+          alternate={true}
         />
         {/*  
         <ProjectCard
@@ -62,14 +81,6 @@ const Projects = () => {
           repo="github.com/sleander94/hunt-for-legends"
           image="huntforlegends.gif"
           altText="hunt for legends demo"
-        />
-        <ProjectCard
-          title="Leetcode Blog"
-          description="Full stack blog app with custom REST API and jwt authentication. Built with MERN stack and MaterialUI."
-          site="sleepy-springs-58716.herokuapp.com/posts"
-          repo="github.com/sleander94/blog-react-app"
-          image="leetcodeblog.gif"
-          altText="Blog demo"
         />
         <ProjectCard
           title="Outdoor Brand Storefront"
