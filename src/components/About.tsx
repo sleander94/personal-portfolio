@@ -13,8 +13,8 @@ const About = () => {
         ></img>
         <div>
           <p>
-            I'm a Colorado based web developer with experience using the
-            MERN stack to create responsive web apps. I love challenging myself
+            I'm a highly driven, Colorado based developer with experience
+            creating responsive, full stack web apps. I love challenging myself
             by building new things and adding technologies to my arsenal.
           </p>
           <p>
