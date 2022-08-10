@@ -25,7 +25,7 @@ const ProjectCard = ({
   altText,
   alternate,
 }: CardProps) => {
-  const [windowWidth, setWindowWidth] = useState<number>(0);
+  const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
 
   useEffect(() => {
     window.addEventListener('resize', () => {
