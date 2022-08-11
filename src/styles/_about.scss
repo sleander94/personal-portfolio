@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0;
     img {
       width: 250px;
       height: auto;
@@ -24,10 +25,28 @@
     }
   }
 
+  a {
+    justify-self: center;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid $primaryColor;
+    padding: 4px 56px;
+    margin-bottom: 2rem;
+  }
+  a:hover {
+    color: $secondaryColor;
+    background-color: $primaryColor;
+  }
+
   .skills {
     display: grid;
     justify-items: center;
     text-align: center;
+    h2 {
+      padding: 1rem;
+    }
     .icons {
       display: flex;
       flex-wrap: wrap;
@@ -67,6 +86,9 @@
   #about {
     img {
       margin-bottom: 1rem;
+    }
+    .personal-info {
+      padding-bottom: 2rem;
     }
   }
 }

@@ -11,7 +11,7 @@ const About = () => {
           src={require('../assets/stephenheadshot.jpeg')}
           alt="Stephen Leander headshot"
         ></img>
-        <div>
+        <div className="about-text">
           <p>
             I'm a highly driven, Colorado based developer with experience
             creating responsive, full stack web apps. I love challenging myself
@@ -28,6 +28,12 @@ const About = () => {
           </p>
         </div>
       </div>
+      <a
+        href="https://drive.google.com/uc?export=download&id=1lqjHi08A7h3X1jlaEo8nDZMvm5-KfHgt"
+        download
+      >
+        Download Resume
+      </a>
       <div className="skills">
         <h2>Skills</h2>
         <div className="icons">
