@@ -55,10 +55,10 @@ const ProjectCard = ({
           })}
         </ul>
         <div className="links">
-          <a href={`https://${site}`} target="_blank">
+          <a href={`https://${site}`} target="_blank" rel="noreferrer">
             Live
           </a>
-          <a href={`https://${repo}`} target="_blank">
+          <a href={`https://${repo}`} target="_blank" rel="noreferrer">
             Code
           </a>
         </div>

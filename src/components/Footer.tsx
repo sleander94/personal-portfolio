@@ -4,6 +4,7 @@ const Footer = () => {
       <a
         href="https://www.linkedin.com/in/stephen-leander-551a6813a/"
         target="_blank"
+        rel="noreferrer"
         className="active"
       >
         <img
@@ -14,6 +15,7 @@ const Footer = () => {
       <a
         href="https://github.com/sleander94"
         target="_blank"
+        rel="noreferrer"
         className="active"
       >
         <img
