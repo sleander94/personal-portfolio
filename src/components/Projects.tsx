@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
+  const [showMore, setShowMore] = useState<boolean>(false);
   return (
     <section id="projects">
       <div className="projects-header">
@@ -31,7 +33,8 @@ const Projects = () => {
           description="Full stack app allowing users to create and share their own photo hunt games."
           features={[
             'Upload an image and mark hidden items to create a puzzle.',
-            'Complete puzzles by finding all the items and share your score on the leaderboard.',
+            'Complete puzzles by finding all the items',
+            'Share your score on the leaderboards.',
           ]}
           site="wespy.app"
           repo="github.com/sleander94/we-spy"
@@ -56,39 +59,88 @@ const Projects = () => {
           altText="park at a glance preview"
           alternate={false}
         />
-        <ProjectCard
-          title="MERN Blog"
-          technologies={['Express', 'MongoDB', 'Material-UI']}
-          description="Full stack personal blog for tracking leetcode solutions."
-          features={[
-            'Custom Express REST API allowing CRUD operations. Connected to React front end.',
-            'User authentication handled with passport JSON web token.',
-            'Signed in users can comment. Only admins can create and delete posts.',
-            'Front and back ends hosted on Heroku.',
-          ]}
-          site="sleepy-springs-58716.herokuapp.com/posts"
-          repo="github.com/sleander94/blog-api"
-          desktopImage="MERNblogdesktop.png"
-          mobileImage="MERNblogmobile.png"
-          altText="MERN blog preview"
-          alternate={true}
-        />
-        <ProjectCard
-          title="CV Generator"
-          technologies={['React', 'Javascript']}
-          description="Front end app to generate a customized CV."
-          features={[
-            'View live preview of CV that updates with user input.',
-            'Add and remove work experience and education.',
-            'Download pdf of resume using html2canvas and jspdf.',
-          ]}
-          site="sleander94.github.io/cv-app/"
-          repo="github.com/sleander94/cv-app"
-          desktopImage="cvgeneratordesktop.png"
-          mobileImage="cvgeneratormobile.png"
-          altText="cv generator preview"
-          alternate={false}
-        />
+        {!showMore && (
+          <button type="button" onClick={() => setShowMore(true)}>
+            View More Projects
+          </button>
+        )}
+        {showMore && (
+          <ProjectCard
+            title="Hunt for Legends"
+            technologies={['React', 'Javascript', 'Firebase']}
+            description="My first photo tagging app. Choose from 3 premade levels."
+            features={[
+              'Find all the hidden characters to record your time.',
+              'Upload your score to the leaderboard and see how your compare.',
+            ]}
+            site="hunt-for-legends-3f7c3.web.app/home"
+            repo="github.com/sleander94/hunt-for-legends"
+            desktopImage="huntforlegends-desktop.png"
+            mobileImage="huntforlegends-mobile.png"
+            altText="hunt for legends preview"
+            alternate={true}
+          />
+        )}
+        {showMore && (
+          <ProjectCard
+            title="CV Generator"
+            technologies={['React', 'Javascript']}
+            description="Front end app to generate a customized CV."
+            features={[
+              'View live preview of CV that updates with user input.',
+              'Add and remove work experience and education.',
+              'Download pdf of resume using html2canvas and jspdf.',
+            ]}
+            site="sleander94.github.io/cv-app/"
+            repo="github.com/sleander94/cv-app"
+            desktopImage="cvgeneratordesktop.png"
+            mobileImage="cvgeneratormobile.png"
+            altText="cv generator preview"
+            alternate={true}
+          />
+        )}
+        {showMore && (
+          <ProjectCard
+            title="MERN Blog"
+            technologies={['Express', 'MongoDB', 'Javascript', 'Material-UI']}
+            description="Full stack personal blog for tracking leetcode solutions."
+            features={[
+              'Custom Express REST API allowing CRUD operations. Connected to React front end.',
+              'User authentication handled with passport JSON web token.',
+              'Signed in users can comment. Only admins can create and delete posts.',
+              'Hosted on Heroku.',
+            ]}
+            site="sleepy-springs-58716.herokuapp.com/posts"
+            repo="github.com/sleander94/blog-api"
+            desktopImage="MERNblogdesktop.png"
+            mobileImage="MERNblogmobile.png"
+            altText="MERN blog preview"
+            alternate={false}
+          />
+        )}
+        {showMore && (
+          <ProjectCard
+            title="Shopping Cart"
+            technologies={['React', 'Javascript']}
+            description="Front end mock storefront for outdoor brand."
+            features={[
+              'Add and remove items from shopping cart.',
+              'View items in cart with calculated total price.',
+            ]}
+            site="sleander94.github.io/shopping-cart/#/home"
+            repo="github.com/sleander94/shopping-cart"
+            desktopImage="outdoorstore-desktop.png"
+            mobileImage="outdoorstore-mobile.png"
+            altText="outdoor store preview"
+            alternate={false}
+          />
+        )}
+        {showMore && (
+          <button type="button" onClick={() => setShowMore(false)}>
+            View Less Projects
+          </button>
+        )}
+
         {/*  
         <ProjectCard
           title="Hunt for Legends"
