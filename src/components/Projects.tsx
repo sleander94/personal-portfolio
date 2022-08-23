@@ -10,6 +10,22 @@ const Projects = () => {
       </div>
       <div className="projects-container">
         <ProjectCard
+          title="Summit Snow Alerts"
+          technologies={['React', 'Typescript', 'Express', 'MongoDB']}
+          description="Full stack app notifying users of snow storms at their favorite ski resorts."
+          features={[
+            'Update contact information, notification preferences, and selected mountains on one page.',
+            'Receive text and / or email alerts when snow is forecast at one of your mountains.',
+            'Hosted on DigitalOcean Droplet server.',
+          ]}
+          site="summitsnowalerts.com"
+          repo="github.com/sleander94/summitsnowalerts"
+          desktopImage="summitsnowalerts-desktop.png"
+          mobileImage="summitsnowalerts-mobile.png"
+          altText="snow alerts preview"
+          alternate={false}
+        />
+        <ProjectCard
           title="We Spy"
           technologies={['React', 'Typescript', 'Firebase', 'Sass']}
           description="Full stack app allowing users to create and share their own photo hunt games."
@@ -18,11 +34,11 @@ const Projects = () => {
             'Complete puzzles by finding all the items and share your score on the leaderboard.',
           ]}
           site="wespy.app"
-          repo="github.com/Scott-Coates-Org/solo-project-sleander94"
+          repo="github.com/sleander94/we-spy"
           desktopImage="wespydesktop.png"
           mobileImage="wespymobile.png"
           altText="we spy preview"
-          alternate={false}
+          alternate={true}
         />
         <ProjectCard
           title="Park at a Glance"
@@ -38,7 +54,7 @@ const Projects = () => {
           desktopImage="parkataglancedesktop.png"
           mobileImage="parkataglancemobile.png"
           altText="park at a glance preview"
-          alternate={true}
+          alternate={false}
         />
         <ProjectCard
           title="MERN Blog"
@@ -48,21 +64,21 @@ const Projects = () => {
             'Custom Express REST API allowing CRUD operations. Connected to React front end.',
             'User authentication handled with passport JSON web token.',
             'Signed in users can comment. Only admins can create and delete posts.',
-            'Front and back ends hosted on Heroku',
+            'Front and back ends hosted on Heroku.',
           ]}
           site="sleepy-springs-58716.herokuapp.com/posts"
           repo="github.com/sleander94/blog-api"
           desktopImage="MERNblogdesktop.png"
           mobileImage="MERNblogmobile.png"
           altText="MERN blog preview"
-          alternate={false}
+          alternate={true}
         />
         <ProjectCard
           title="CV Generator"
           technologies={['React', 'Javascript']}
           description="Front end app to generate a customized CV."
           features={[
-            'View live preview of CV that updates with user input',
+            'View live preview of CV that updates with user input.',
             'Add and remove work experience and education.',
             'Download pdf of resume using html2canvas and jspdf.',
           ]}
@@ -71,7 +87,7 @@ const Projects = () => {
           desktopImage="cvgeneratordesktop.png"
           mobileImage="cvgeneratormobile.png"
           altText="cv generator preview"
-          alternate={true}
+          alternate={false}
         />
         {/*  
         <ProjectCard
