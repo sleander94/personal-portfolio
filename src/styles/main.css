@@ -15,18 +15,19 @@
   height: 100%;
   width: 100%;
 }
-#home .hero-media img {
+#home .hero-media img,
+#home .hero-media .hero-initials {
   grid-area: 1/1/2/2;
   z-index: 2;
   position: relative;
   margin-top: 25vh;
   border: 2px solid #00adb5;
-  max-width: 175px;
-  padding: 1rem;
+  font-size: 8rem;
+  padding: 2rem;
   -webkit-animation: move-left 1.5s 1s forwards;
           animation: move-left 1.5s 1s forwards;
 }
-#home .hero-media div {
+#home .hero-media .heading-container {
   grid-area: 1/1/2/2;
   position: relative;
   margin-top: 25vh;
@@ -76,19 +77,19 @@
   }
 }
 @media only screen and (max-width: 1200px) {
-  #home .hero-media img {
-    max-width: 150px;
+  #home .hero-media .hero-initials {
+    font-size: 6rem;
     -webkit-animation: move-left 1.5s 1s forwards;
             animation: move-left 1.5s 1s forwards;
   }
-  #home .hero-media div {
+  #home .hero-media .heading-container {
     left: 3.5rem;
     -webkit-animation: expand 1.5s 1s forwards, slide 0.75s 1s forwards;
             animation: expand 1.5s 1s forwards, slide 0.75s 1s forwards;
   }
   #home .hero-media h1 {
-    margin-left: 0;
-    font-size: 5rem;
+    margin-left: 1rem;
+    font-size: 4.5rem;
   }
   @-webkit-keyframes slide {
     from {
@@ -108,12 +109,12 @@
   }
 }
 @media only screen and (max-width: 900px) {
-  #home .hero-media img {
-    max-width: 125px;
+  #home .hero-media .hero-initials {
+    font-size: 4rem;
     -webkit-animation: move-left 1.5s 1s forwards;
             animation: move-left 1.5s 1s forwards;
   }
-  #home .hero-media div {
+  #home .hero-media .heading-container {
     left: 3rem;
     -webkit-animation: expand 1.5s 1s forwards, slide 0.75s 1s forwards;
             animation: expand 1.5s 1s forwards, slide 0.75s 1s forwards;
@@ -140,13 +141,13 @@
   }
 }
 @media only screen and (max-width: 640px) {
-  #home .hero-media img {
-    max-width: 100px;
-    padding: 1rem;
+  #home .hero-media .hero-initials {
+    font-size: 3.2rem;
+    padding: 0.75rem;
     -webkit-animation: move-left 1.5s 1s forwards;
             animation: move-left 1.5s 1s forwards;
   }
-  #home .hero-media div {
+  #home .hero-media .heading-container {
     width: 0;
     left: 3rem;
     -webkit-animation: expand 1.5s 1s forwards, slide 0.75s 1s forwards;
@@ -455,6 +456,9 @@ nav a:hover {
 @media only screen and (max-width: 1100px) {
   #projects .projects-container {
     gap: 5rem;
+  }
+  #projects .projects-container button {
+    padding: 8px 48px;
   }
 }
 .project {

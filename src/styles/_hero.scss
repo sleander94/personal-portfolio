@@ -12,17 +12,18 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    img {
+    img,
+    .hero-initials {
       grid-area: 1 / 1 / 2 / 2;
       z-index: 2;
       position: relative;
       margin-top: 25vh;
       border: 2px solid $primaryColor;
-      max-width: 175px;
-      padding: 1rem;
+      font-size: 8rem;
+      padding: 2rem;
       animation: move-left 1.5s 1s forwards;
     }
-    div {
+    .heading-container {
       grid-area: 1 / 1 / 2 / 2;
       position: relative;
       margin-top: 25vh;
@@ -67,17 +68,17 @@
 @media only screen and (max-width: 1200px) {
   #home {
     .hero-media {
-      img {
-        max-width: 150px;
+      .hero-initials {
+        font-size: 6rem;
         animation: move-left 1.5s 1s forwards;
       }
-      div {
+      .heading-container {
         left: 3.5rem;
         animation: expand 1.5s 1s forwards, slide 0.75s 1s forwards;
       }
       h1 {
-        margin-left: 0;
-        font-size: 5rem;
+        margin-left: 1rem;
+        font-size: 4.5rem;
       }
     }
   }
@@ -94,11 +95,11 @@
 @media only screen and (max-width: 900px) {
   #home {
     .hero-media {
-      img {
-        max-width: 125px;
+      .hero-initials {
+        font-size: 4rem;
         animation: move-left 1.5s 1s forwards;
       }
-      div {
+      .heading-container {
         left: 3rem;
         animation: expand 1.5s 1s forwards, slide 0.75s 1s forwards;
       }
@@ -121,12 +122,12 @@
 @media only screen and (max-width: 640px) {
   #home {
     .hero-media {
-      img {
-        max-width: 100px;
-        padding: 1rem;
+      .hero-initials {
+        font-size: 3.2rem;
+        padding: 0.75rem;
         animation: move-left 1.5s 1s forwards;
       }
-      div {
+      .heading-container {
         width: 0;
         left: 3rem;
         animation: expand 1.5s 1s forwards, slide 0.75s 1s forwards;
