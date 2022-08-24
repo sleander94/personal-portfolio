@@ -66,23 +66,6 @@ const Projects = () => {
         )}
         {showMore && (
           <ProjectCard
-            title="Hunt for Legends"
-            technologies={['React', 'Javascript', 'Firebase']}
-            description="My first photo tagging app. Choose from 3 premade levels."
-            features={[
-              'Find all the hidden characters to record your time.',
-              'Upload your score to the leaderboard and see how you compare.',
-            ]}
-            site="hunt-for-legends-3f7c3.web.app/home"
-            repo="github.com/sleander94/hunt-for-legends"
-            desktopImage="huntforlegends-desktop.webp"
-            mobileImage="huntforlegends-mobile.webp"
-            altText="hunt for legends preview"
-            alternate={true}
-          />
-        )}
-        {showMore && (
-          <ProjectCard
             title="CV Generator"
             technologies={['React', 'Javascript']}
             description="Front end app to generate a customized CV."
@@ -115,6 +98,23 @@ const Projects = () => {
             desktopImage="MERNblogdesktop.webp"
             mobileImage="MERNblogmobile.webp"
             altText="MERN blog preview"
+            alternate={true}
+          />
+        )}
+        {showMore && (
+          <ProjectCard
+            title="Hunt for Legends"
+            technologies={['React', 'Javascript', 'Firebase']}
+            description="My first photo tagging app. Choose from 3 premade levels."
+            features={[
+              'Find all the hidden characters to record your time.',
+              'Upload your score to the leaderboard and see how you compare.',
+            ]}
+            site="hunt-for-legends-3f7c3.web.app/home"
+            repo="github.com/sleander94/hunt-for-legends"
+            desktopImage="huntforlegends-desktop.webp"
+            mobileImage="huntforlegends-mobile.webp"
+            altText="hunt for legends preview"
             alternate={true}
           />
         )}
