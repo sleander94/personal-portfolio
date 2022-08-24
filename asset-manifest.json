@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.2f19e02a.css",
-    "main.js": "/static/js/main.9423696a.js",
-    "static/media/parkataglancedesktop.png": "/static/media/parkataglancedesktop.4b3c48fba0a0a455c986.png",
-    "static/media/huntforlegends-desktop.png": "/static/media/huntforlegends-desktop.f75d6776eaf7380a341e.png",
-    "static/media/wespydesktop.png": "/static/media/wespydesktop.50acee74eb86e64cf125.png",
-    "static/media/summitsnowalerts-desktop.png": "/static/media/summitsnowalerts-desktop.27dc5641546196c37208.png",
-    "static/media/outdoorstore-desktop.png": "/static/media/outdoorstore-desktop.8078f873dca43eb64102.png",
-    "static/media/MERNblogdesktop.png": "/static/media/MERNblogdesktop.f9c38f4ca930a6c9b666.png",
-    "static/media/cvgeneratordesktop.png": "/static/media/cvgeneratordesktop.c7c84aea971024bf32bc.png",
-    "static/media/huntforlegends-mobile.png": "/static/media/huntforlegends-mobile.5abfd4e38ceaedf60715.png",
-    "static/media/wespymobile.png": "/static/media/wespymobile.f5a8ba04e9ed5a12e103.png",
-    "static/media/parkataglancemobile.png": "/static/media/parkataglancemobile.39bf05e56c25f76ec60d.png",
-    "static/media/summitsnowalerts-mobile.png": "/static/media/summitsnowalerts-mobile.772ba4972bb951d155a5.png",
-    "static/media/cvgeneratormobile.png": "/static/media/cvgeneratormobile.ad8a3d7e15d9c206515f.png",
-    "static/media/outdoorstore-mobile.png": "/static/media/outdoorstore-mobile.6122a5465602e7dfb773.png",
-    "static/media/MERNblogmobile.png": "/static/media/MERNblogmobile.ac7b022424c7beb7293c.png",
+    "main.js": "/static/js/main.570d9af0.js",
+    "static/media/parkataglancedesktop.webp": "/static/media/parkataglancedesktop.6684f20e4dc3cb2a39c0.webp",
+    "static/media/huntforlegends-desktop.webp": "/static/media/huntforlegends-desktop.345110789baff0ee47a8.webp",
+    "static/media/wespydesktop.webp": "/static/media/wespydesktop.ec6455827ceb8bd715ca.webp",
+    "static/media/summitsnowalerts-desktop.webp": "/static/media/summitsnowalerts-desktop.82b8078505631c8d8a0a.webp",
+    "static/media/huntforlegends-mobile.webp": "/static/media/huntforlegends-mobile.e70d9cebe5176ca99a44.webp",
+    "static/media/cvgeneratordesktop.webp": "/static/media/cvgeneratordesktop.7ae9b71a071ba3138967.webp",
+    "static/media/outdoorstore-desktop.webp": "/static/media/outdoorstore-desktop.1dafd4f2aaf10f8ac4ca.webp",
+    "static/media/parkataglancemobile.webp": "/static/media/parkataglancemobile.cb26b66b578631bbe420.webp",
+    "static/media/wespymobile.webp": "/static/media/wespymobile.dfd8fc63ee8efac20e78.webp",
+    "static/media/MERNblogdesktop.webp": "/static/media/MERNblogdesktop.b7d76002198adc756da2.webp",
     "static/media/stephenheadshot.jpeg": "/static/media/stephenheadshot.2e035e7ba8cc4fb58a9b.jpeg",
+    "static/media/summitsnowalerts-mobile.webp": "/static/media/summitsnowalerts-mobile.338d4e9372a74e29c759.webp",
     "static/media/android-chrome-512x512.png": "/static/media/android-chrome-512x512.deb729a5fd0144c2c7a9.png",
+    "static/media/cvgeneratormobile.webp": "/static/media/cvgeneratormobile.91558f6bd7c7c9f296f5.webp",
+    "static/media/outdoorstore-mobile.webp": "/static/media/outdoorstore-mobile.35f4bee95edaf7ccdc4f.webp",
+    "static/media/MERNblogmobile.webp": "/static/media/MERNblogmobile.066690fd25301cfc0e21.webp",
     "static/media/mongodb-plain-wordmark.svg": "/static/media/mongodb-plain-wordmark.b43ea7a6f1e97fab107aebd22205e345.svg",
     "static/media/sass-original.svg": "/static/media/sass-original.fb123914eb0e5cc6e0a65e2928d89e2a.svg",
     "static/media/react-original-wordmark.svg": "/static/media/react-original-wordmark.7c8375868df8c536ab4f2d4078519904.svg",
@@ -34,10 +34,10 @@
     "static/media/css3-plain-wordmark.svg": "/static/media/css3-plain-wordmark.32dd69d420952df1780d2771ab454d4b.svg",
     "static/media/iconmonstr-linkedin-3.svg": "/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "main.2f19e02a.css.map": "/static/css/main.2f19e02a.css.map",
-    "main.9423696a.js.map": "/static/js/main.9423696a.js.map"
+    "main.570d9af0.js.map": "/static/js/main.570d9af0.js.map"
   },
   "entrypoints": [
     "static/css/main.2f19e02a.css",
-    "static/js/main.9423696a.js"
+    "static/js/main.570d9af0.js"
   ]
 }
