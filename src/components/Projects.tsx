@@ -102,7 +102,7 @@ const Projects = () => {
         {showMore && (
           <ProjectCard
             title="MERN Blog"
-            technologies={['Express', 'MongoDB', 'Javascript', 'Material-UI']}
+            technologies={['Express', 'MongoDB', 'Material-UI']}
             description="Full stack personal blog for tracking leetcode solutions."
             features={[
               'Custom Express REST API allowing CRUD operations. Connected to React front end.',
