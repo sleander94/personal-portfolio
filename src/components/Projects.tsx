@@ -22,8 +22,8 @@ const Projects = () => {
           ]}
           site="summitsnowalerts.com"
           repo="github.com/sleander94/summitsnowalerts"
-          desktopImage="summitsnowalerts-desktop.png"
-          mobileImage="summitsnowalerts-mobile.png"
+          desktopImage="summitsnowalerts-desktop.webp"
+          mobileImage="summitsnowalerts-mobile.webp"
           altText="snow alerts preview"
           alternate={false}
         />
@@ -38,8 +38,8 @@ const Projects = () => {
           ]}
           site="wespy.app"
           repo="github.com/sleander94/we-spy"
-          desktopImage="wespydesktop.png"
-          mobileImage="wespymobile.png"
+          desktopImage="wespydesktop.webp"
+          mobileImage="wespymobile.webp"
           altText="we spy preview"
           alternate={true}
         />
@@ -54,8 +54,8 @@ const Projects = () => {
           ]}
           site="parkataglance.com"
           repo="github.com/sleander94/park-at-a-glance"
-          desktopImage="parkataglancedesktop.png"
-          mobileImage="parkataglancemobile.png"
+          desktopImage="parkataglancedesktop.webp"
+          mobileImage="parkataglancemobile.webp"
           altText="park at a glance preview"
           alternate={false}
         />
@@ -71,12 +71,12 @@ const Projects = () => {
             description="My first photo tagging app. Choose from 3 premade levels."
             features={[
               'Find all the hidden characters to record your time.',
-              'Upload your score to the leaderboard and see how your compare.',
+              'Upload your score to the leaderboard and see how you compare.',
             ]}
             site="hunt-for-legends-3f7c3.web.app/home"
             repo="github.com/sleander94/hunt-for-legends"
-            desktopImage="huntforlegends-desktop.png"
-            mobileImage="huntforlegends-mobile.png"
+            desktopImage="huntforlegends-desktop.webp"
+            mobileImage="huntforlegends-mobile.webp"
             altText="hunt for legends preview"
             alternate={true}
           />
@@ -93,10 +93,10 @@ const Projects = () => {
             ]}
             site="sleander94.github.io/cv-app/"
             repo="github.com/sleander94/cv-app"
-            desktopImage="cvgeneratordesktop.png"
-            mobileImage="cvgeneratormobile.png"
+            desktopImage="cvgeneratordesktop.webp"
+            mobileImage="cvgeneratormobile.webp"
             altText="cv generator preview"
-            alternate={true}
+            alternate={false}
           />
         )}
         {showMore && (
@@ -112,10 +112,10 @@ const Projects = () => {
             ]}
             site="sleepy-springs-58716.herokuapp.com/posts"
             repo="github.com/sleander94/blog-api"
-            desktopImage="MERNblogdesktop.png"
-            mobileImage="MERNblogmobile.png"
+            desktopImage="MERNblogdesktop.webp"
+            mobileImage="MERNblogmobile.webp"
             altText="MERN blog preview"
-            alternate={false}
+            alternate={true}
           />
         )}
         {showMore && (
@@ -129,8 +129,8 @@ const Projects = () => {
             ]}
             site="sleander94.github.io/shopping-cart/#/home"
             repo="github.com/sleander94/shopping-cart"
-            desktopImage="outdoorstore-desktop.png"
-            mobileImage="outdoorstore-mobile.png"
+            desktopImage="outdoorstore-desktop.webp"
+            mobileImage="outdoorstore-mobile.webp"
             altText="outdoor store preview"
             alternate={false}
           />
@@ -140,24 +140,6 @@ const Projects = () => {
             View Less Projects
           </button>
         )}
-
-        {/*  
-        <ProjectCard
-          title="Hunt for Legends"
-          description="Full stack photo tagging app with leaderboards. Built with React and Firebase."
-          site="hunt-for-legends-3f7c3.web.app/home"
-          repo="github.com/sleander94/hunt-for-legends"
-          image="huntforlegends.gif"
-          altText="hunt for legends demo"
-        />
-        <ProjectCard
-          title="Outdoor Brand Storefront"
-          description="Front end mock storefront for outdoor brand with shopping cart. Built using React."
-          site="sleander94.github.io/shopping-cart/#/home"
-          repo="github.com/sleander94/shopping-cart"
-          image="outdoorstore.gif"
-          altText="Outdoor Store demo"
-        /> */}
       </div>
     </section>
   );
