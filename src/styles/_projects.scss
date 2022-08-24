@@ -32,6 +32,9 @@
   #projects {
     .projects-container {
       gap: 5rem;
+      button {
+        padding: 8px 48px;
+      }
     }
   }
 }
