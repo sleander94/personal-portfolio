@@ -23,7 +23,7 @@
   margin-top: 25vh;
   border: 2px solid #00adb5;
   font-size: 8rem;
-  padding: 2rem;
+  padding: 1rem;
   -webkit-animation: move-left 1.5s 1s forwards;
           animation: move-left 1.5s 1s forwards;
 }
