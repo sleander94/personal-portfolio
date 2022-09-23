@@ -9,7 +9,7 @@ const Footer = () => {
       >
         <img
           src={require('../assets/icons/iconmonstr-linkedin-3.svg').default}
-          alt=""
+          alt="LinkedIn profile link"
         />
       </a>
       <a
@@ -20,7 +20,7 @@ const Footer = () => {
       >
         <img
           src={require('../assets/icons/iconmonstr-github-1.svg').default}
-          alt=""
+          alt="Github profile link"
         />
       </a>
     </section>
