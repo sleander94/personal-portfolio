@@ -16,8 +16,8 @@ const Projects = () => {
           technologies={['React', 'Typescript', 'Express', 'MongoDB']}
           description="Full stack app notifying users of snow storms at their favorite ski resorts."
           features={[
-            'Update contact information, notification preferences, and selected mountains on one page.',
-            'Receive text and / or email alerts when snow is forecast at one of your mountains.',
+            'Update selected mountains, days and times, and contact information.',
+            'Receive text/email alerts when snow is forecast at one of your mountains.',
             'Hosted on DigitalOcean Droplet server.',
           ]}
           site="summitsnowalerts.com"
@@ -33,7 +33,7 @@ const Projects = () => {
           description="Full stack app allowing users to create and share their own photo hunt games."
           features={[
             'Upload an image and mark hidden items to create a puzzle.',
-            'Complete puzzles by finding all the items',
+            'Complete puzzles by finding all the items.',
             'Share your score on the leaderboards.',
           ]}
           site="wespy.app"
@@ -66,24 +66,6 @@ const Projects = () => {
         )}
         {showMore && (
           <ProjectCard
-            title="CV Generator"
-            technologies={['React', 'Javascript']}
-            description="Front end app to generate a customized CV."
-            features={[
-              'View live preview of CV that updates with user input.',
-              'Add and remove work experience and education.',
-              'Download pdf of resume using html2canvas and jspdf.',
-            ]}
-            site="sleander94.github.io/cv-app/"
-            repo="github.com/sleander94/cv-app"
-            desktopImage="cvgeneratordesktop.webp"
-            mobileImage="cvgeneratormobile.webp"
-            altText="cv generator preview"
-            alternate={false}
-          />
-        )}
-        {showMore && (
-          <ProjectCard
             title="MERN Blog"
             technologies={['Express', 'MongoDB', 'Material-UI']}
             description="Full stack personal blog for tracking leetcode solutions."
@@ -99,6 +81,24 @@ const Projects = () => {
             mobileImage="MERNblogmobile.webp"
             altText="MERN blog preview"
             alternate={true}
+          />
+        )}
+        {showMore && (
+          <ProjectCard
+            title="CV Generator"
+            technologies={['React', 'Javascript']}
+            description="Front end app to generate a customized CV."
+            features={[
+              'View live preview of CV that updates with user input.',
+              'Add and remove work experience and education.',
+              'Download pdf of resume using html2canvas and jspdf.',
+            ]}
+            site="sleander94.github.io/cv-app/"
+            repo="github.com/sleander94/cv-app"
+            desktopImage="cvgeneratordesktop.webp"
+            mobileImage="cvgeneratormobile.webp"
+            altText="cv generator preview"
+            alternate={false}
           />
         )}
         {showMore && (
