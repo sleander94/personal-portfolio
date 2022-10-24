@@ -13,7 +13,7 @@ const About = () => {
         ></img>
         <div className="about-text">
           <p>
-            I'm a highly driven, Colorado-based developer with growing
+            I'm a highly driven, Colorado-based professional with growing
             experience creating responsive, full stack web apps. I love
             challenging myself by building new things and adding technologies to
             my arsenal.
